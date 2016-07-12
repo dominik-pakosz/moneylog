@@ -1,0 +1,21 @@
+.main-info {
+    background-color: #FFFFFF;
+    border-top: 2px solid #00C0EF;
+    padding: 10px 0px 20px 10px;
+    height: 210px;
+    font-size: 15px;
+}
+.more-info {
+    background-color: #FFFFFF;
+    border-top: 2px solid red;
+    padding: 10px 0px 20px 10px;
+    height: 210px;
+    font-size: 15px;
+}
+.webmonitor-glyphicon {
+    font-size:30px;
+}
+.webmonitor-glyphicon-text {
+    font-size: 28px;
+    padding-left: 15px;
+}

@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Dodaj</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                {{ form_start(form) }}
+                {{ form_row(form.userId) }}
+                {{ form_row(form.amount) }}
+                {{ form_row(form.monthYear) }}
+                {{ form_row(form.description) }}
+                <div class="row">
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary" formnovalidate>Zapisz</button>
+                    </div>
+                    <div class="col-md-offset-8 col-md-2">
+                        <a href="{{ path('homepage') }}" class="btn btn-info">Wróć »</a>
+                    </div>
+                </div>
+                {{ form_end(form) }}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+
